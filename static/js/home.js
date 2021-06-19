@@ -1,0 +1,2 @@
+// AOS Instance
+AOS.init();
