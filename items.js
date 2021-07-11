@@ -492,6 +492,5 @@ exports.getProducts = function() {
         }
 
     ];
-
   return items;
 }
