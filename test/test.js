@@ -1,8 +1,10 @@
-var assert = require('assert');
-describe('Array', function() {
-  describe('#indexOf()', function() {
-    it('should return -1 when the value is not present', function() {
-      assert.equal([1, 2, 3].indexOf(4), -1);
-    });
-  });
+
+var assert = require("chai").assert;
+
+const r = require("../static/js/check.js");
+
+describe("checking" , function(){
+   it("should return 3" , function(){
+      assert.equal(r(1, 2) , 4);
+   })
 });
